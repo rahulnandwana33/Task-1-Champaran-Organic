@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+.img-fluid{
+    width: 3010px;
+    height: 450px;
+    background-color: cadetblue;
+}
+
+.container-fluid1{
+  
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.container-fluid1 a{
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.container-fluid1 a:hover{
+  color: darkgreen;
+}
+
+img{
+  height:150px;
+  width:100%;
+  object-fit: cover;
+}
+
+.card-text{
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+  text-align: center;
+}
+
+.item{
+  padding-left:5px;
+  padding-right:5px;
+}
+.item-card{
+  transition:0.5s;
+  cursor:pointer;
+  padding-top: 40px;
+
+}
+.item-card-title{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+  text-align: center;
+}
+.item-card-title i{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+  color:#ffa710
+}
+.card-title i:hover{
+  transform: scale(1.25) rotate(100deg); 
+  color:#18d4ca;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-text{
+  height:40px;  
+}
+.strike{
+    text-align: center;
+}
+.price{
+    font-weight: 700;
+    text-align: center;
+    color: #5D8233;
+    border-bottom: 2px solid #5D8233;
+    
+}
+
+.card::before, .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+.card-image{
+    height: 380px;
+}
+.btn:hover{
+  color: #5D8233;
+}
+.btn{
+  font-weight: 500;
+}
+
+.container-fluid{
+  padding-bottom: 160px;
+}
+
+.container{
+  padding-top:22px;
+  padding-bottom: 20px;
+  }
+
+  .items1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.items1 a:hover{
+  color: greenyellow;
+}
+
+.items2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.items2 a:hover{
+    text-decoration: none;
+    color: greenyellow;
+}
+

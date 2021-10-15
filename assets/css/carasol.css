@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.carousel-item {
+    height: 500px;
+}
+.carousel{
+    max-width:1920px ;
+    background-color:antiquewhite;
+}
+
+body{
+    /* background-color:antiquewhite; */
+    
+}
+
+
+.container-fluid{
+   
+    padding-top: 22px;
+}
+
+.content{
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title{
+    text-align: center;
+    color: #064420;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.product-items{
+    
+    padding-left: 100px;
+    padding-top: 22px;
+}
+
+.product-lists{
+    display: flex;
+}
+
+.one{
+    
+    padding-right: 12px;
+}
+
+.two{
+    
+    padding-right: 12px;
+}
+
+.three{
+    
+    padding-right: 12px;
+}
+
+.it1{
+    
+    background-color: white;
+    padding-right: 12px;
+   
+    
+}
+
+.it2{
+   
+    background-color: white;
+    padding-right: 12px;
+}
+
+.it3{
+    
+    background-color: white;
+    padding-right: 12px;
+}
+
+.pad{
+   padding-left: 25px;
+   padding-bottom: 40px;
+   text-decoration: none;
+}
+
+.pad a:hover{
+    color: rgb(83, 243, 83);
+}
+
+.text1{
+    margin: auto;
+    text-align: center;
+}
+
+.text2{
+    margin: auto;
+    text-align: center;
+}
+
+.new1{
+    float: left;
+    margin-left: 40px;
+    padding-top: 22px;
+}
+
+.new2{
+    float: left;
+    
+    margin-left: 40px;
+}
+
+.par1{
+    margin: auto;
+    padding-top: 31px;
+    text-decoration: none;
+}
+
+.par2{
+    margin: auto;
+    padding-top: 4px;
+    
+}
+
+Read More a:hover{
+    color: #5D8233;
+}
+
+.par1 a:hover{
+    color: #5D8233;
+}
+
+.hovre {
+    text-decoration: none;
+    color: black;
+}
+
+.amd{
+    text-decoration: none;
+    color:greenyellow;
+}
+
+.carousel-item{
+    height: 500px;
+}
+     
+.card{
+    margin: 30px 20px 0 20px ;
+    background-color: #fff;
+}
+/* .card-group{
+    margin: 30px 150px 0 150px ;
+} */
+.price{
+    font-weight: 700;
+    
+    color: #5D8233;
+}
+.card-title{
+    text-align: left;
+    font-size: small;
+    color: #064420;
+    position:relative;
+}
+.heading{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+.img-fluid{
+    width: 80px;
+}

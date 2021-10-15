@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>champaran</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/86ee6ee1a0.js" crossorigin="anonymous"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/handheld_footer.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/sidenav.css">
+    <link rel="stylesheet" href="assets/css/my_account.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/carasol.css">
+    <link rel="stylesheet" href="assets/css/index_karan.css">
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html" class="hover">Home</a>
+    <a href="about_us.html" class="hover">About us</a>
+    <a href="shop.html" class="hover">Shop</a>
+    <a href="faq.html" class="hover">Faqs</a>
+    <a href="contact.html" class="hover">Contact</a>
+    <a href="gallary.html" class="hover">Gallary</a>
+</div>
+<div id="main">
+    <div>
+        <!-- HEADER PART -->
+        <header style="padding-bottom: 10px;">
+            <div class="welcome-msg flex justify-between px-5 py-2">
+                <div>FREE express international delivery + EASY returns</div>
+                <div class="flex">
+                    <div class="mr-7"><a class="hover" href="about_us.html">ABOUT</a></div>
+                    <div class="mr-7"><a class="hover" href="faq.html">FAQ</a></div>
+                    <div class="mr-7"><a class="hover" href="contact.html">CONTACT US</a></div>
+                </div>
+            </div>
+            <div class="header-main-not-large">
+                <div class="flex px-5 py-2 items-center justify-between flex-shrink-0">
+                    <div onclick="openNav()" class="sandwich-icon"><i class="fas fa-bars hover"></i></div>
+                    <div class="flex flex-col">
+                        <a href="index.html"><span class="site-logo font-bold">Champaran Organic</span></a>
+                        <span class="site-moto">Champaran Ek Vishwas</span>
+                    </div>
+                    <div style="background: #f3e4dc;" class="mr-3 icons hover-icon"><a class="flex items-center justify-center" href="cart.html"><i class="fas fa-cart-arrow-down"></i></a></div>
+                </div>  
+            </div>
+            <div class="header-main">
+                <div class="flex px-5 items-center justify-between flex-shrink-0">
+                    <div class="header-left flex flex-col">
+                        <a href="index.html" class="flex flex-col">
+                            <span class="site-logo font-bold">Champaran</span>
+                            <span class="site-logo font-bold">Organic</span>
+                        </a>
+                        <span class="site-moto">Champaran Ek Vishwas</span>
+                    </div>
+                    <div class="header-middle flex">
+                        <div class="mr-9"><a class="font-bold hover" href="index.html">Home</a></div>
+                        <div class="mr-9"><a class="font-bold hover" href="about_us.html">About us</a></div>
+                        <div class="mr-9"><a class="font-bold hover" href="shop.html">Shop</a></div>
+                        <div class="mr-9"><a class="font-bold hover" href="faq.html">Faqs</a></div>
+                        <div class="mr-9"><a class="font-bold hover" href="contact.html">Contact</a></div>
+                        <div class="mr-9"><a class="font-bold hover" href="gallary.html">Gallary</a></div>
+                    </div>
+                    <div class="header-right flex">
+                        <div style="background: #f4f4f4;" class="mr-5 icons hover-icon"><a class="flex items-center justify-center" href="./search.html"><i class="fas fa-search"></i></a></div>
+                        <div style="background: #f4f4f4;" class="mr-5 icons hover-icon"><a class="flex items-center justify-center" href="search.html"><i class="fas fa-search"></i></a></div>
+                        <div style="background: #e8f8f7; position: relative;" class="mr-5 icons account-icon">
+                          <div class="hover-icon">
+                              <a class="flex items-center justify-center" href="my_account.html"><i class="far fa-user"></i></a>
+                          </div>
+                          <div class="account-dropdown pt-3">
+                              <div class="wrapper">
+                                  <div style="width: 320px;">
+                                      <div class="form-title">
+                                          Sign in <a style="color:#a8b324;font-size:14px" href="my_account.html">Create an Account</a>
+                                      </div>
+                                      <form action="" class="flex flex-col justify-center">
+                                          <div class="flex flex-col">
+                                              <label class="pb-2" for="username">Username or email address<span style="color: red;">*</span></label>
+                                              <input type="text" name="username" id="username">
+                                          </div>
+                                          <div class="flex flex-col">
+                                              <label class="pb-2" for="password">Password <span style="color: red;">*</span></label>
+                                              <input type="password" name="password" id="password">
+                                          </div>
+                                          <button style="width: 245px; margin: auto;" type="submit" class="login-btn">Login</button>
+                                      </form>
+                                      <div></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>                        <div style="background: #f6f3e3;" class="mr-5 icons hover-icon"><a class="flex items-center justify-center" href="wishlist.html"><i class="far fa-heart"></i></a></div>
+                        <div style="background: #f3e4dc;" class="mr-3 icons hover-icon"><a class="flex items-center justify-center" href="cart.html"><i class="fas fa-cart-arrow-down"></i></a></div>
+                        <div class="mr-5 icons"><a class="flex items-center justify-center" href="cart.html"><span>₹0.00</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/carasol/rice9.jpg" class="d-block w-100" style="width: 3010px; height: 900px;">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/carasol/brownrice.jpg" class="d-block w-100" style="width: 3010px; height: 900px;">
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  
+       
+        <div class="heading">
+          <h5 class="italic">Our Products</h5>
+          <h1 style="font-size:2.5rem" class="bold">Whats's Hot</h1>
+          <button type="button" class="btn btn-success">Katrani Rice</button>
+       </div>
+   <div class="container ">
+         
+         <div class="row mobblock card-group ">
+           <div class="col-md-4 col-sm-6 mobwfull item">
+             <div class="card item-card card-block">
+             
+           <img class="card-image"src="assets/images/index/hb-1.jpeg" alt="Photo of sunset">
+               <h7 class="item-card-title mt-3 mb-3">Kaimur Katrani Rice - Half Boiled</h7>
+               <strike class="strike">₹ 100</strike><p class="price">₹ 80</p> 
+               <button type="button" class="btn ">Add to cart >>></button>
+         </div>
+       </div>
+           <div class="col-md-4 col-sm-6 mobwfull item">
+             <div class="card item-card card-block">
+             
+           <img class="card-image"src="assets/images/index/white-800x551.jpeg" alt="Photo of sunset">
+               <h7 class="item-card-title  mt-3 mb-3">Kaimur Katrani Rice - White</h7>
+               <strike class="strike">₹ 120</strike><p class="price">₹ 100</p> 
+               <button type="button" class="btn ">Add to cart >>></button>
+         </div>
+           </div>
+           <div class="col-md-4 col-sm-6 mobwfull item">
+             <div class="card item-card card-block">
+             
+           <img class="card-image"src="assets/images/index/brown.jpeg" alt="Photo of sunset">
+               <h7 class="item-card-title  mt-3 mb-3">Kaimur Katrani Rice - Brown</h7>
+               <strike class="strike">₹ 100</strike><p class="price">₹ 80</p> 
+               <button type="button" class="btn ">Add to cart >>></button>
+         </div>
+           </div>
+              
+         </div>
+         
+       </div>
+       <div class="container">
+         <div class="row row-cols-1 row-cols-md-2 g-4">
+           <div class="col">
+             <div class="">
+               
+               <div class="card-body">
+                 <h3 class="card-title2">Vision</h3>
+                 <p class="card-text2" style="text-align: left;">To Be A Vehicle Of Consciousness In The Global Market By Creating An Holistic, Sustainable Business Modality, Which Inspires, Promotes And Supports True Wellness And Respect For All Beings And For Mother Nature..</p>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="">
+               
+               <div class="card-body">
+                 <h3 class="card-title2">Mission</h3>
+                 <p class="card-text2" style="text-align: left;">To Be A Trustworthy And Innovative Global Leader In Providing Genuine Organic True Wellness Products And Solutions For Conscious, Healthy Living.</p>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="">
+              
+               <div class="card-body">
+                 <h3 class="card-title2">Our Values</h3>
+                 <p class="card-text2"><ul class="card-text2" style="text-align: left;"><li>Service To All</li>
+   
+                  <li> Total Integrity</li>
+                   
+                  <li> Absolute Commitment To Quality</li>
+                   
+                   <li>Respect And Devotion To Mother Nature</li>
+                   
+                   <li>No Compromise On Being Who We Are</li></ul></p>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="">
+               
+               <div class="card-body">
+                 <h3 class="card-title2">Our Commitments</h3>
+                 <p class="card-text2"><ul class="card-text2" style="text-align: left;"> <li> Genuine Organic Foods And Products To Our Consumers.</li>
+                   <li> To Introduce A Unique And Successful Business Model That Is Committed To Service And Integrity, And Benefits All.</li>
+                   <li> To Support Natural, Sustainable, Organic, Agriculture Practices That Serve And Protect Mother Nature.</li>
+                   <li> To Support The Livelihood And Well-Being Of Farmers And Tribal Wildcrafters Across Rural India.</li></ul></p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="container-fluid">
+         
+         <div class="row mobblock card-group second">
+           <div class="col-md-4 col-sm-6 mobwfull item">
+             <div class="card item-card card-block">
+             
+           <img class="card-image"src="assets/images/index/hb-1.jpeg" alt="Photo of sunset">
+               <h7 class="item-card-title mt-3 mb-3">Kaimur Katrani Rice - Half Boiled</h7>
+               <strike class="strike">₹ 100</strike><p class="price">₹ 80</p> 
+               <button type="button" class="btn ">Add to cart >>></button>
+         </div>
+       </div>
+           <div class="col-md-4 col-sm-6 mobwfull item">
+             <div class="card item-card card-block">
+             
+           <img class="card-image"src="assets/images/index/white-800x551.jpeg" alt="Photo of sunset">
+               <h7 class="item-card-title  mt-3 mb-3">Kaimur Katrani Rice - White</h7>
+               <strike class="strike">₹ 120</strike><p class="price">₹ 100</p> 
+               <button type="button" class="btn ">Add to cart >>></button>
+         </div>
+           </div>
+           <div class="col-md-4 col-sm-6 mobwfull item">
+             <div class="card item-card card-block">
+             
+           <img class="card-image"src="assets/images/index/brown.jpeg" alt="Photo of sunset">
+               <h7 class="item-card-title  mt-3 mb-3">Kaimur Katrani Rice - Brown</h7>
+               <strike class="strike">₹ 100</strike><p class="price">₹ 80</p> 
+               <button type="button" class="btn ">Add to cart >>></button>
+         </div>
+           </div>
+              
+         </div>
+         
+       </div>
+       <div class="container">
+            <h1 class="title2">Our Resolutions</h1>
+            <div class="slim">
+               <p>Raising Comfort to the Highest Level</p>
+            </div>
+            <div class="card-group">
+               <div class="card card-dis">
+                 <img src="assets/images/index/1.png" class="cardimgtop" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title2">100% Organic</h5>
+                   <p class="card-text2">Organic Rice Production And Farming Is A Holistic Production Management System, Which Avoids The Use Of Synthetic Fertilizers, Pesticides, And Genetically Modified Seeds.</p>
+                   
+                 </div>
+               </div>
+               <div class="card card-dis">
+                 <img src="assets/images/index/2.png" class="cardimgtop2" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title2">No Harmful Fertilizers</h5>
+                   <p class="card-text2">The Organic Farming System Relies On Crop Rotation, Use Of Crop Residues, Animal Manures, Off-Farm Organic Wastes, Green Manures, Bio-Fertilizers, Bio-Pesticides To Maintain Soil Productivity And Tilth To Supply Plant Nutrients And To Control Insects, Pests And Weeds Thereby Combating Environmental Pollution.</p>
+                
+                 </div>
+               </div>
+               <div class="card card-dis">
+                 <img src="assets/images/index/3.png" class="cardimgtop2" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title2">Fast Delivery</h5>
+                   <p class="card-text2">We Provide You With The Most Quickest Delivery Service At Your Door Steps.</p>
+                  
+                 </div>
+               </div>
+             </div>
+       </div>
+       <div class="container">
+         <div class="main-content flex flex-col">
+           <div class="content-heading title2"><h2 class="text-3xl font-extrabold">Welcome, how can we help you?</h2></div>
+           <div style="padding-bottom: 20px;line-height: 1.8;">
+               <p style="color: #4B5955; text-align: justify;" class="card-text2">We warrant that your information including the sensitive information submitted by you is protected both online and off-line. While you are making the payment, the page is secure, encrypted and protected with the best encryption software in the industry – SSL. You can choose one favorite from the payment methods below.</p>
+           </div>
+       <div class="faqs flex flex-col">
+         <div class="faq-item py-7 flex">
+             <span id="1" class="item-icon" onclick="changeIcon(this)">
+                 <i class="fas fa-plus-circle disable"></i>
+                 <i style="color: #FED700;" class="fas fa-minus-circle"></i>
+             </span>
+             <div class="flex flex-col">
+                 <label id="label-1" class="faq-item-ques showMore" for="_1">Does Organic Rice Protein cause Bloating?</label>
+                 <input type="checkbox" name="" id="_1">
+                 <div id="ans-1" class="ans">
+                     So Far, There Have Been No Complaints About Organic Rice Protein Causing Bloating. Usually, Bloating Is Caused By An Abrupt Increase In Fiber Intake. But Because Fiber Is Taken Out From The Rice During Rice Protein Processing, You Can Expect Little To No Bloating. Plus, Rice Is A Hypoallergenic Food.
+                 </div>
+             </div>
+         </div>
+         <div class="faq-item py-7 flex">
+             <span id="2" class="item-icon" onclick="changeIcon(this)">
+                 <i class="fas fa-plus-circle"></i>
+                 <i style="color: #FED700;" class="fas fa-minus-circle disable"></i>
+             </span>
+             <div class="flex flex-col">
+                 <label id="label-2" class="faq-item-ques showMore" for="_2">
+                     Can I use Organic Rice Protein for Weight Loss?
+                 </label>
+                 <input type="checkbox" name="" id="_2">
+                 <div id="ans-2" class="ans">
+                     Protein, In General, Is Great For Weight Loss. Protein-Rich Food Can Help You Feel Full Longer, Allowing You To Curb Your Hunger And Control Your Food Intake. So, Yes, You Can Use Organic Rice Protein To Aid Your Weight Loss.                            </div>
+             </div>
+         </div>
+         <div class="faq-item py-7 flex">
+             <span id="3" class="item-icon" onclick="changeIcon(this)">
+                 <i class="fas fa-plus-circle"></i>
+                 <i style="color: #FED700;" class="fas fa-minus-circle disable"></i>
+             </span>
+             <div class="flex flex-col">
+                 <label id="label-3" class="faq-item-ques showMore" for="_3">
+                     How does organic rice protein taste like?
+                 </label>
+                 <input type="checkbox" name="" id="_3">
+                 <div id="ans-3" class="ans">
+                     You Can Choose Among A Wide Variety Of Flavors, From Chocolate To Vanilla To Strawberry. But In General, Organic Rice Protein Has A Bland Flavor With A Chalky Texture. If You’re Considering To Purchase Organic Rice Protein Shakes, Try Samples First Before Investing In Big Tubs Of Rice Protein Powder.                            </div>
+             </div>
+         </div>
+     </div>
+     </div>
+   </div>   
+    <footer>
+      <div class="footer-main">
+          <div class="flex justify-center">
+              <span>Coppyright © 2021&nbsp;</span>
+              <a style="color: #a8b324;font-weight: 700;" href="index.html">Champaran Organic</a>
+              <span>. All Rights Reserved.</span>
+          </div>
+      </div>
+      <div class="handheld-footer flex justify-between items-center">
+        <div class="flex flex-col justify-between items-center">
+            <a href="shop.html">
+            <i class="fas fa-store"></i>
+            <span>Shop</span>
+        </a>
+        </div>
+        <div class="flex flex-col justify-between items-center">
+            <a href="my_account.html">
+            <i class="far fa-user"></i>
+            <span>My Account</span>
+        </a>
+        </div>
+        <div class="flex flex-col justify-between items-center">
+            <a href="./search.html">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+        </a>
+        </div>
+        <div class="flex flex-col justify-between items-center">
+            <a href="wishlist.html">
+            <i class="far fa-heart"></i>
+            <span>Wishlist</span>
+        </a>
+        </div>
+    </div>
+  </footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<script src="assets/js/index_karan.js"></script>
+<script src="assets/js/sidenav.js"></script>
+</body>
+</html>

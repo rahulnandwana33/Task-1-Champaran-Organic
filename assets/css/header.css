@@ -1,0 +1,88 @@
+header{
+    background-color: white;
+    padding-bottom: 10px;
+}
+.welcome-msg{
+    background-color: #0a472e;
+    color: white;
+    margin-bottom: 10px;
+}
+.site-logo{
+    color: #a8b324;
+    font-size: 2em;
+    line-height: 1;
+}
+.site-moto{
+    padding-top: 10px;
+    font-size: 0.875em;
+    color: #555555;
+}
+a{
+    text-decoration: none;
+}
+.hover:hover{
+    color: #a8b324;
+}
+.header-right .icons a,
+.header-right .icons{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.hover-icon :hover{
+    background-color: #a8b324;
+}
+.header-main-not-large{
+    display: none;
+}
+.account-dropdown{
+    display: none;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    z-index: 6;
+}
+.account-dropdown .wrapper{
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 5%);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ebebeb;
+}
+.account-dropdown .wrapper div{
+    padding: 20px;
+    max-height: 500px;
+    overflow: auto;
+}
+.account-dropdown .wrapper div .form-title{
+    font-size: 18px;
+    color: #333;
+}
+.account-dropdown .form-title a:hover{
+    text-decoration: underline;
+}
+.login-btn :hover{
+    background-color: #80891b;
+}
+.account-icon:hover .account-dropdown{
+    display: block;
+}
+@media only screen and (max-width: 1020px) {
+    .welcome-msg{
+        display: none;
+    }
+    .header-main-not-large{
+        display: block;
+    }
+    .header-main{
+        display: none;
+    }
+    .header-main-not-large .icons a,
+    .header-main-not-large .icons{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+}

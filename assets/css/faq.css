@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+body{
+    font-size: 14px;
+    line-height: 1.8;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #a8b324;
+}
+h1{
+    line-height: 1.214;
+    letter-spacing: -1px;
+}
+/* .breadcrumb{
+    background-image: url("assets/breadcrumb_bkg.jpg");
+    background-position: center center;
+    text-align: center;
+} */
+
+.col-full{
+    width: 100%;
+    text-align: left;
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.breadcrumb .breadcrumb-heading{
+    color: #0a472e;
+    max-width: 850px;
+    font-weight: 700;
+    /* font-family: 'Libre Franklin', sans-serif; */
+}
+.breadcrumb nav{
+    color: black;
+}
+.breadcrumb nav a{
+    color: #999;
+}
+.breadcrumb .separator{
+    padding: 0 0.5407911001em;
+    color: #999;
+}
+.site-main{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.faq-category{
+    margin-right: 40px;
+    width: 50%;
+}
+.faq-container{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E3E3E3;
+    padding: 30px;
+}
+.faq-category .title{
+    color:#0a472e;
+    font-size: 25px;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.faq-category ul{
+    padding-left: 0px;
+    list-style: none;
+}
+.faq-category li{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-bottom: 10px;
+}
+.faq-category li .icon-span{
+    display: flex;
+    align-items: center;
+}
+.faq-category li a{
+    font-size: inherit;
+}
+.faq-category i{
+    color: #BAC34E;
+    width: 1.25em;
+    font-size: 6px;
+    padding-right: 20px;
+}
+.off i{
+    display: none;
+}
+.faq-heading{
+    color: #000000;
+    font-size: 30px;
+}
+.faq-content .faq-text{
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    color: #4B5955;
+    line-height: 1.8;
+}
+.item-active,
+.item-not-active{
+    margin-right: 1.063em;
+    min-width: 40px;
+    min-height: 40px;
+    line-height: 32px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.item-active{
+    color: #ffe358;
+}
+.item-not-active{
+    color: black;
+}
+.item-active span{
+    display: flex;
+    align-items: center;
+}
+.faq-item-title{
+    display: flex;
+    align-items: center;
+}
+.item-active i,
+.item-not-active{
+    font-size: 21px;
+}
+.faq-item-title a{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.faq-item-content{
+    padding: 0 0 33px 52px;
+}
+.main-content .content-heading{
+    padding-bottom: 20px;
+}
+.faq-item i{
+    font-size: 21px;
+}
+.disable{
+    display: none;
+}
+.faq-item .faq-item-ques{
+    padding-left: 20px;
+}
+.faq-item{
+    border-bottom: 1px solid #E3E3E3;
+}
+.ans{
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+.ans p{
+    color: #4B5955;
+}
+.showMore {
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+  }
+  .showMore + input {
+   display:none;
+  }
+  .showMore + input + * {
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 0.5s, overflow 0s;
+  }
+  .showMore + input:checked + * { 
+    max-height: 7em;
+    transition: max-height 0.5s, overflow 0.5s;
+  }
+  .title h4{
+      font-size: 20px;
+      font-weight: 800;
+  }
+  a#home{
+      color: black;
+  }
+  a#home:hover{
+      color: #a8b324;
+  }
+  a#faq{
+      color:#a8b324
+  }
+  .breadcrumb {
+    /* background-image: url("assets/breadcrumb_bkg.jpg"); */
+    background-position: center center;
+    text-align: center;
+    margin: 0 0 2.617924em;
+    padding: 2.617924em 0;
+    text-align: center;
+    color: #fff;
+}
+.breadcrumb .breadcrumb-heading {
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+@media (min-width:768px){
+    .breadcrumb{
+        padding: 6.8535260698em 0;
+        margin: 0 0 5em;
+        min-height: 300px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .breadcrumb .breadcrumb-heading {
+        font-size: 50px;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .faq-category {
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .faq-category {
+        display: none;
+    }
+}

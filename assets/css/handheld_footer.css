@@ -1,0 +1,31 @@
+.handheld-footer{
+    display: none;
+    background-color: white;
+}
+@media only screen and (max-width: 1020px){
+    .handheld-footer{
+        display: flex;
+        width: 100%;
+        padding: 15px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        border: 1px solid #ebebeb;
+    }
+    .handheld-footer span,
+    .handheld-footer i{
+        color: #0a472e;
+    }
+    .handheld-footer span{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .handheld-footer i{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    .handheld-footer div{
+        width: 100%;
+        border-right: 1px solid #ebebeb;
+    }
+}

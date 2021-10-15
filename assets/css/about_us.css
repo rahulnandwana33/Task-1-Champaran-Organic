@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.navbar{
+    background-color: #064420;
+    height: 50px;
+}
+.container{
+  height: 300px;
+  width: 1920px;
+  background-image: url(assets/images/faq/breadcrumb_bkg.jpg);
+  background-color: #FAF2DA;
+  position: sticky;
+}
+a{
+    color: black;
+}
+.title{
+    font-family: 'Fjalla One', sans-serif;
+    color: #064420;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.title2{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #064420;
+}
+.link{
+    padding-left: 60px;
+}
+.content{
+    text-align: justify;
+    margin:0 95px 0 95px;
+    font-size: 15px;
+}
+.container-fluid{
+    text-align: center;
+}
+.img3{
+    margin-top: 10px;
+}
+.images{
+    margin: 0 90px 0 90px;
+}
+.card-img-top:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-title{
+    font-size: 30px;
+    text-align: center;
+    color: #064420;
+}
+.card-text{
+  text-align: justify;
+}
+.div1{
+    background-image: url(div1.jpg);
+    position: sticky;
+    color: #fff;
+}
+.div2{
+    background-image: url(div2.jpg);
+    position: sticky;
+    color: #fff;
+}
+.div3{
+    background-image: url(div3.jpg);
+    position: sticky;
+    color: #fff;
+}
+.div4{
+    background-image: url(div4.jpg);
+    position: sticky;
+    color: #fff;
+}
+.our{
+
+        color: #5D8233;
+        font-family: 'Italianno', cursive;
+        font-size: 30px;
+    margin-top: 30px;
+}
+.bold{
+    font-weight: 800;
+    color: #064420;
+}
+.card2{
+    /*background-image: url(http://sp.assetsavivia.live/wp-content/uploads/2020/08/h5_img.jpg);*/
+    height: 400px;
+    align-items: center;
+}
+.img1{
+    width: 120px;
+    height: 100px;
+    margin-top: 150px;
+}
+.card-group{
+    margin: 0 70px 0 70px;
+}
+.img{
+    border-radius: 100px;
+}
+.card-text1{
+    font-size: small;
+}
+h5{
+    font-size: medium;
+}
+.rounded1{
+    border-radius: 200px;
+   width: 60px;
+   height: 60px;
+}
+.card-text2{
+    color: black;
+}
+.rounded{
+    border-radius: 100px;
+  }
+  .card-img2{
+    height: 350px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    margin:40px 35px 70px 35px;
+  }
+  
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+ 
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  
+  .flip-card-back {
+    background-color: #064420;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  @media screen and (max-width: 400px) {
+      .container{
+          width: 100%;
+      }
+    .card-group{
+        margin: 0 5px 0 5px;
+        width: 100%;
+    }
+    .content{
+        text-align: justify;
+        margin:0 25px 0 25px;
+        font-size: 15px;
+        
+    }
+    .images{
+        margin: 0 25px 0 25px;
+        
+    }
+    .flip-card {
+        margin:40px 30px 70px 10px;
+        
+    }
+    .img{
+        height: 50px;
+        width: 50px;
+    }
+    .card2{
+        display: none;
+    }
+  }

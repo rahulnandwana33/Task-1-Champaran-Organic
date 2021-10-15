@@ -1,0 +1,13 @@
+.footer-main{
+    padding: 1.618em 0 0;
+}
+.footer-main div{
+    padding: 1.618em 0;
+    background-color: #000;
+    color: #999;
+}
+@media only screen and (max-width: 1020px){
+    .footer-main{
+        display: none;
+    }
+}
